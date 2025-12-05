@@ -24,3 +24,16 @@ body {
 header h1 {
   letter-spacing: 0.03em;
 }
+
+/* Justified text utility for content paragraphs and lists */
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Optional: keep headings left-aligned for readability */
+.justify h2,
+.justify h3,
+.justify h1 {
+  text-align: left;
+}
