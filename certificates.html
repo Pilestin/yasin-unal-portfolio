@@ -12,55 +12,91 @@
     <header class="mb-4 text-center text-md-start">
       <div class="row align-items-center">
         <div class="col-md-8">
-          <h1 class="fw-bold mb-0">Certificates</h1>
-          <p class="text-muted mb-0">Click any certificate below to open its page or add a URL.</p>
+          <h1 class="fw-bold mb-0" data-lang-en="Certificates" data-lang-tr="Sertifikalar">Certificates</h1>
+          <p class="text-muted mb-0" data-lang-en="Click any certificate below to open its page or add a URL." data-lang-tr="Herhangi bir sertifikaya tıklayarak sayfasını açabilirsiniz.">Click any certificate below to open its page or add a URL.</p>
         </div>
         <div class="col-md-4 mt-3 mt-md-0 text-md-end text-center">
-          <a href="index.html" class="btn btn-sm btn-outline-secondary">Back to CV</a>
+          <div class="mb-2">
+            <button id="lang-en" class="btn btn-sm btn-outline-primary active" onclick="switchLanguage('en')">EN</button>
+            <button id="lang-tr" class="btn btn-sm btn-outline-primary" onclick="switchLanguage('tr')">TR</button>
+          </div>
+          <a href="index.html" class="btn btn-sm btn-outline-secondary" data-lang-en="Back to CV" data-lang-tr="CV'ye Dön">Back to CV</a>
         </div>
       </div>
       <hr class="mt-4" />
     </header>
 
     <section class="mb-4">
-      <h2 class="section-title h5">All Certificates</h2>
+      <h2 class="section-title h5" data-lang-en="All Certificates" data-lang-tr="Tüm Sertifikalar">All Certificates</h2>
       <ul class="list-unstyled small mb-0">
         <li id="nvidia-predictive" class="mb-3">
           <a href="https://learn.nvidia.com/certificates?id=H4qW_djrQKGLdlVKNECuHg" target="_blank" rel="noopener noreferrer" class="fw-bold">NVIDIA — Applications of AI for Predictive Maintenance</a>
-          <div class="small text-muted">NVIDIA online course certificate. <a href="https://learn.nvidia.com/certificates?id=H4qW_djrQKGLdlVKNECuHg" target="_blank" rel="noopener noreferrer">Open certificate</a></div>
+          <div class="small text-muted" data-lang-en="NVIDIA online course certificate. <a href='https://learn.nvidia.com/certificates?id=H4qW_djrQKGLdlVKNECuHg' target='_blank' rel='noopener noreferrer'>Open certificate</a>" data-lang-tr="NVIDIA çevrimiçi kurs sertifikası. <a href='https://learn.nvidia.com/certificates?id=H4qW_djrQKGLdlVKNECuHg' target='_blank' rel='noopener noreferrer'>Sertifikayı aç</a>">NVIDIA online course certificate. <a href="https://learn.nvidia.com/certificates?id=H4qW_djrQKGLdlVKNECuHg" target="_blank" rel="noopener noreferrer">Open certificate</a></div>
         </li>
         <li id="nvidia-dl" class="mb-3">
           <a href="https://learn.nvidia.com/certificates?id=FkD9cQINRQul_m4L_g_KJg" target="_blank" rel="noopener noreferrer" class="fw-bold">NVIDIA — Fundamentals of Deep Learning</a>
-          <div class="small text-muted">NVIDIA online course certificate. <a href="https://learn.nvidia.com/certificates?id=FkD9cQINRQul_m4L_g_KJg" target="_blank" rel="noopener noreferrer">Open certificate</a></div>
+          <div class="small text-muted" data-lang-en="NVIDIA online course certificate. <a href='https://learn.nvidia.com/certificates?id=FkD9cQINRQul_m4L_g_KJg' target='_blank' rel='noopener noreferrer'>Open certificate</a>" data-lang-tr="NVIDIA çevrimiçi kurs sertifikası. <a href='https://learn.nvidia.com/certificates?id=FkD9cQINRQul_m4L_g_KJg' target='_blank' rel='noopener noreferrer'>Sertifikayı aç</a>">NVIDIA online course certificate. <a href="https://learn.nvidia.com/certificates?id=FkD9cQINRQul_m4L_g_KJg" target="_blank" rel="noopener noreferrer">Open certificate</a></div>
         </li>
         <li id="python-ml" class="mb-3">
           <a href="#" target="_blank" class="fw-bold">Python ile Makine Öğrenmesi</a>
-          <div class="small text-muted">Certificate on practical machine learning with Python. (BTK Akademi)</div>
+          <div class="small text-muted" data-lang-en="Certificate on practical machine learning with Python. (BTK Akademi)" data-lang-tr="Python ile pratik makine öğrenmesi sertifikası. (BTK Akademi)">Certificate on practical machine learning with Python. (BTK Akademi)</div>
         </li>
         <li id="git-github" class="mb-3">
           <a href="#" target="_blank" class="fw-bold">Versiyon Kontrolleri: Git ve GitHub</a>
-          <div class="small text-muted">Course on version control and GitHub workflows. (BTK Akademi)</div>
+          <div class="small text-muted" data-lang-en="Course on version control and GitHub workflows. (BTK Akademi)" data-lang-tr="Versiyon kontrolü ve GitHub iş akışları kursu. (BTK Akademi)">Course on version control and GitHub workflows. (BTK Akademi)</div>
         </li>
         <li id="advanced-python" class="mb-3">
           <a href="#" target="_blank" class="fw-bold">Sıfırdan İleri Seviye Python Programlama</a>
-          <div class="small text-muted">Comprehensive Python programming certificate. (BTK Akademi)</div>
+          <div class="small text-muted" data-lang-en="Comprehensive Python programming certificate. (BTK Akademi)" data-lang-tr="Kapsamlı Python programlama sertifikası. (BTK Akademi)">Comprehensive Python programming certificate. (BTK Akademi)</div>
         </li>
         <li id="ml-intro" class="mb-3">
           <a href="#" target="_blank" class="fw-bold">Makine Öğrenimine Giriş</a>
-          <div class="small text-muted">Introductory machine learning certificate. (BTK Akademi)</div>
+          <div class="small text-muted" data-lang-en="Introductory machine learning certificate. (BTK Akademi)" data-lang-tr="Giriş seviyesi makine öğrenmesi sertifikası. (BTK Akademi)">Introductory machine learning certificate. (BTK Akademi)</div>
         </li>
         <li id="microservices" class="mb-3">
           <a href="#" target="_blank" class="fw-bold">Mikroservis Mimarileri</a>
-          <div class="small text-muted">Course on microservices architectures. (BTK Akademi)</div>
+          <div class="small text-muted" data-lang-en="Course on microservices architectures. (BTK Akademi)" data-lang-tr="Mikroservis mimarileri kursu. (BTK Akademi)">Course on microservices architectures. (BTK Akademi)</div>
         </li>
       </ul>
     </section>
 
     <footer class="text-muted small mt-5">
-      <p>Add direct URLs to each certificate's anchor to enable opening the actual certificate file or proof.</p>
+      <p data-lang-en="Add direct URLs to each certificate's anchor to enable opening the actual certificate file or proof." data-lang-tr="Her sertifikaya doğrudan URL ekleyerek gerçek sertifika dosyasını veya kanıtı açabilirsiniz.">Add direct URLs to each certificate's anchor to enable opening the actual certificate file or proof.</p>
     </footer>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Language Toggle Script -->
+  <script>
+    let currentLang = 'en';
+    
+    function switchLanguage(lang) {
+      currentLang = lang;
+      
+      // Update button states
+      document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+      document.getElementById('lang-tr').classList.toggle('active', lang === 'tr');
+      
+      // Update all elements with data-lang attributes
+      document.querySelectorAll('[data-lang-en]').forEach(element => {
+        const text = element.getAttribute('data-lang-' + lang);
+        if (text) {
+          element.innerHTML = text;
+        }
+      });
+      
+      // Save preference
+      localStorage.setItem('preferredLanguage', lang);
+    }
+    
+    // Load saved language preference on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+      if (savedLang === 'tr') {
+        switchLanguage('tr');
+      }
+    });
+  </script>
 </body>
 </html>
