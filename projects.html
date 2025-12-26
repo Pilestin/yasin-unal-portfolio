@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects — Yasin Ünal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container py-5">
+    <header class="mb-4 text-center text-md-start">
+      <div class="row align-items-center">
+        <div class="col-md-8">
+          <h1 class="fw-bold mb-0" data-lang-en="Projects" data-lang-tr="Projeler">Projects</h1>
+          <p class="text-muted mb-0" data-lang-en="Explore my research and development projects" data-lang-tr="Araştırma ve geliştirme projelerimi keşfedin">Explore my research and development projects</p>
+        </div>
+        <div class="col-md-4 mt-3 mt-md-0 text-md-end text-center">
+          <div class="mb-2">
+            <button id="lang-en" class="btn btn-sm btn-outline-primary active" onclick="switchLanguage('en')">EN</button>
+            <button id="lang-tr" class="btn btn-sm btn-outline-primary" onclick="switchLanguage('tr')">TR</button>
+          </div>
+          <a href="index.html" class="btn btn-sm btn-outline-secondary" data-lang-en="Back to CV" data-lang-tr="CV'ye Dön">Back to CV</a>
+        </div>
+      </div>
+      <hr class="mt-4" />
+    </header>
+
+    <section class="mb-5">
+      <h2 class="section-title h5" data-lang-en="Research & Development Projects" data-lang-tr="Araştırma & Geliştirme Projeleri">Research & Development Projects</h2>
+
+      <!-- OPEVA Project -->
+      <div class="card mb-4" id="opeva">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start mb-2">
+            <h3 class="h5 mb-0" data-lang-en="OPEVA – Optimization of Electric Vehicle Autonomy" data-lang-tr="OPEVA – Elektrikli Araç Özerkliğinin Optimizasyonu">OPEVA – Optimization of Electric Vehicle Autonomy</h3>
+            <span class="badge bg-primary">2024 - Present</span>
+          </div>
+          <p class="small mb-2" data-lang-en="TÜBİTAK 1002 funded research project focusing on electric vehicle routing with charging constraints" data-lang-tr="TÜBİTAK 1002 destekli, şarj kısıtlı elektrikli araç rotalama üzerine odaklanan araştırma projesi">TÜBİTAK 1002 funded research project focusing on electric vehicle routing with charging constraints</p>
+          
+          <h6 class="small fw-bold mt-3" data-lang-en="Key Contributions:" data-lang-tr="Temel Katkılar:">Key Contributions:</h6>
+          <ul class="small mb-3">
+            <li data-lang-en="Designed RML (Routing Markup Language) for standardized vehicle, environment, and route definitions" data-lang-tr="Standartlaştırılmış araç, ortam ve rota tanımları için RML (Routing Markup Language) tasarladım">Designed RML (Routing Markup Language) for standardized vehicle, environment, and route definitions</li>
+            <li data-lang-en="Implemented ALNS (Adaptive Large Neighborhood Search) metaheuristic for CEVRPTW" data-lang-tr="CEVRPTW için ALNS (Adaptive Large Neighborhood Search) metasezgisel algoritmasını uyguladım">Implemented ALNS (Adaptive Large Neighborhood Search) metaheuristic for CEVRPTW</li>
+            <li data-lang-en="Developed simulation and visualization tools for route analysis and scenario comparison" data-lang-tr="Rota analizi ve senaryo karşılaştırması için simülasyon ve görselleştirme araçları geliştirdim">Developed simulation and visualization tools for route analysis and scenario comparison</li>
+            <li data-lang-en="Integrated real-world datasets including traffic patterns and charging station data" data-lang-tr="Trafik desenleri ve şarj istasyonu verileri dahil gerçek dünya veri setlerini entegre ettim">Integrated real-world datasets including traffic patterns and charging station data</li>
+          </ul>
+          
+          <div class="d-flex gap-2 flex-wrap">
+            <span class="badge bg-secondary">Python</span>
+            <span class="badge bg-secondary">FastAPI</span>
+            <span class="badge bg-secondary">ALNS</span>
+            <span class="badge bg-secondary">Docker</span>
+            <span class="badge bg-secondary">Optimization</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fleet Management System -->
+      <div class="card mb-4" id="fms">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start mb-2">
+            <h3 class="h5 mb-0" data-lang-en="Fleet Management System (FMS)" data-lang-tr="Filo Yönetim Sistemi (FMS)">Fleet Management System (FMS)</h3>
+            <span class="badge bg-primary">2024 - Present</span>
+          </div>
+          <p class="small mb-2" data-lang-en="Full-stack web application for managing electric vehicle fleets with real-time optimization" data-lang-tr="Gerçek zamanlı optimizasyon ile elektrikli araç filolarını yönetmek için full-stack web uygulaması">Full-stack web application for managing electric vehicle fleets with real-time optimization</p>
+          
+          <h6 class="small fw-bold mt-3" data-lang-en="Features:" data-lang-tr="Özellikler:">Features:</h6>
+          <ul class="small mb-3">
+            <li data-lang-en="Route optimization module with dynamic routing API integration" data-lang-tr="Dinamik rotalama API entegrasyonu ile rota optimizasyon modülü">Route optimization module with dynamic routing API integration</li>
+            <li data-lang-en="EV charging management and station availability tracking" data-lang-tr="EV şarj yönetimi ve istasyon müsaitlik takibi">EV charging management and station availability tracking</li>
+            <li data-lang-en="Real-time vehicle tracking with live map visualization" data-lang-tr="Canlı harita görselleştirmesi ile gerçek zamanlı araç takibi">Real-time vehicle tracking with live map visualization</li>
+            <li data-lang-en="Performance analytics dashboard with KPI monitoring" data-lang-tr="KPI izleme ile performans analizi panosu">Performance analytics dashboard with KPI monitoring</li>
+          </ul>
+          
+          <div class="d-flex gap-2 flex-wrap">
+            <span class="badge bg-secondary">React</span>
+            <span class="badge bg-secondary">Express.js</span>
+            <span class="badge bg-secondary">Node.js</span>
+            <span class="badge bg-secondary">MongoDB</span>
+            <span class="badge bg-secondary">Leaflet.js</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RML Framework -->
+      <div class="card mb-4" id="rml">
+        <div class="card-body">
+          <div class="d-flex justify-content-between align-items-start mb-2">
+            <h3 class="h5 mb-0" data-lang-en="Routing Markup Language (RML)" data-lang-tr="Routing Markup Language (RML)">Routing Markup Language (RML)</h3>
+            <span class="badge bg-primary">2024 - Present</span>
+          </div>
+          <p class="small mb-2" data-lang-en="Standardized data format for vehicle routing problems to enable interoperability between solvers" data-lang-tr="Çözücüler arasında birlikte çalışabilirliği sağlamak için araç rotalama problemleri için standartlaştırılmış veri formatı">Standardized data format for vehicle routing problems to enable interoperability between solvers</p>
+          
+          <h6 class="small fw-bold mt-3" data-lang-en="Components:" data-lang-tr="Bileşenler:">Components:</h6>
+          <ul class="small mb-3">
+            <li data-lang-en="XML/JSON schema for vehicle specifications, constraints, and capabilities" data-lang-tr="Araç özellikleri, kısıtları ve yetenekleri için XML/JSON şeması">XML/JSON schema for vehicle specifications, constraints, and capabilities</li>
+            <li data-lang-en="Environment modeling including road networks, charging stations, and depots" data-lang-tr="Yol ağları, şarj istasyonları ve depolar dahil ortam modellemesi">Environment modeling including road networks, charging stations, and depots</li>
+            <li data-lang-en="Validation toolkit and parser library for Python and JavaScript" data-lang-tr="Python ve JavaScript için doğrulama araç seti ve ayrıştırıcı kütüphanesi">Validation toolkit and parser library for Python and JavaScript</li>
+            <li data-lang-en="Integration with routing solvers (ALNS, SA, TS)" data-lang-tr="Rotalama çözücüleri ile entegrasyon (ALNS, SA, TS)">Integration with routing solvers (ALNS, SA, TS)</li>
+          </ul>
+          
+          <div class="d-flex gap-2 flex-wrap">
+            <span class="badge bg-secondary">XML/JSON</span>
+            <span class="badge bg-secondary">Schema Design</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Other Projects Section -->
+    <section class="mb-4">
+      <h2 class="section-title h5" data-lang-en="Other Projects" data-lang-tr="Diğer Projeler">Other Projects</h2>
+      
+      <div class="row">
+        <!-- BIST30 Price Prediction -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="Machine Learning BIST30 Price Prediction (Graduation Project)" data-lang-tr="Makine Öğrenmesi ile BIST30 Fiyat Tahmini (Bitirme Projesi)">Machine Learning BIST30 Price Prediction (Graduation Project)</h5>
+              <p class="card-text small" data-lang-en="Predicting BIST30 index closing prices using 3 ML algorithms. Data from yfinance. Interactive web application built with Streamlit." data-lang-tr="3 farklı makine öğrenmesi algoritması ile BIST30 endeksinin kapanış fiyatını tahmin. yfinance verisi. Streamlit ile interaktif web uygulaması.">Predicting BIST30 index closing prices using 3 ML algorithms. Data from yfinance. Interactive web application built with Streamlit.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">Scikit-learn</span>
+                <span class="badge bg-secondary">TensorFlow</span>
+                <span class="badge bg-secondary">Streamlit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contiki Network Simulation -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="IoT Network Simulation with Contiki OS" data-lang-tr="Contiki İşletim Sistemi ile Ağ Simülasyonu">IoT Network Simulation with Contiki OS</h5>
+              <p class="card-text small" data-lang-en="Computer Networks course project. IoT-based network simulation using Contiki-NG OS and Cooja simulator." data-lang-tr="Bilgisayar Ağları dersi projesi. Contiki-NG işletim sistemi ve Cooja simülatörü ile IoT tabanlı ağ simülasyonu.">Computer Networks course project. IoT-based network simulation using Contiki-NG OS and Cooja simulator.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Contiki-NG</span>
+                <span class="badge bg-secondary">Cooja</span>
+                <span class="badge bg-secondary">C</span>
+                <span class="badge bg-secondary">Docker</span>
+              </div>
+              <a href="https://github.com/Pilestin/Computer-Network-with-ContikiNG" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Neural Network Image Classification -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="3-Class Image Classification with Neural Network" data-lang-tr="Yapay Sinir Ağı ile 3 Sınıflı Resim Tahmini">3-Class Image Classification with Neural Network</h5>
+              <p class="card-text small" data-lang-en="Image classification using backpropagation neural network coded from scratch without using ML libraries." data-lang-tr="Hazır kütüphane kullanılmadan geri beslemeli yapay sinir ağı ile görüntü sınıflandırma.">Image classification using backpropagation neural network coded from scratch without using ML libraries.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">Neural Networks</span>
+                <span class="badge bg-secondary">From Scratch</span>
+              </div>
+              <a href="https://github.com/Pilestin/Introduction_ML_BIL429/tree/master/Proje2" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Linear Regression Price Prediction -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="House Price Prediction with Linear Regression" data-lang-tr="Lineer Regresyon ile Fiyat Tahmini">House Price Prediction with Linear Regression</h5>
+              <p class="card-text small" data-lang-en="House price prediction using Kaggle dataset. Linear regression and gradient descent implemented from scratch without ML libraries." data-lang-tr="Kaggle ev fiyatları verisi ile tahmin. Hazır ML kütüphaneleri kullanılmadan lineer regresyon ve gradient descent uygulaması.">House price prediction using Kaggle dataset. Linear regression and gradient descent implemented from scratch without ML libraries.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">Linear Regression</span>
+                <span class="badge bg-secondary">From Scratch</span>
+              </div>
+              <a href="https://github.com/Pilestin/Introduction_ML_BIL429/tree/master/Proje1" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp Bot -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="WhatsApp Bot with Selenium" data-lang-tr="Selenium ile WhatsApp Bot">WhatsApp Bot with Selenium</h5>
+              <p class="card-text small" data-lang-en="Automated message sending bot using web automation with Selenium." data-lang-tr="Selenium ile web otomasyonu kullanarak otomatik mesaj gönderen bot.">Automated message sending bot using web automation with Selenium.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">Selenium</span>
+                <span class="badge bg-secondary">Web Automation</span>
+              </div>
+              <a href="https://github.com/Pilestin/Selenium-Whatsapp-Bot" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scala Research -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="Comprehensive Scala Language Research" data-lang-tr="Scala Dilinin Her Yönüyle Araştırılması">Comprehensive Scala Language Research</h5>
+              <p class="card-text small" data-lang-en="Programming Languages course project. Detailed research and documentation of Scala programming language." data-lang-tr="Programlama Dilleri dersi projesi. Scala programlama dilinin detaylı incelenmesi ve raporlanması.">Programming Languages course project. Detailed research and documentation of Scala programming language.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Scala</span>
+                <span class="badge bg-secondary">Overleaf</span>
+                <span class="badge bg-secondary">Research</span>
+              </div>
+              <a href="https://github.com/Pilestin/Scala_best_language" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Store E-Commerce -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="E-Commerce Web Project (Book-Store)" data-lang-tr="E-Ticaret Web Projesi (Book-Store)">E-Commerce Web Project (Book-Store)</h5>
+              <p class="card-text small" data-lang-en="Web Programming course project. Online book sales platform using MVC architecture." data-lang-tr="Web Programlama dersi projesi. MVC mimarisi ile online kitap satış platformu.">Web Programming course project. Online book sales platform using MVC architecture.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Java (JSP/Servlet)</span>
+                <span class="badge bg-secondary">Hibernate</span>
+                <span class="badge bg-secondary">MySQL</span>
+                <span class="badge bg-secondary">Bootstrap</span>
+              </div>
+              <a href="https://github.com/Pilestin/Book-Store" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Hospital System -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="Mobile Hospital System" data-lang-tr="Mobil Hastane Sistemi">Mobile Hospital System</h5>
+              <p class="card-text small" data-lang-en="Mobile Programming course project. Platform for doctor-patient communication and messaging with real-time features." data-lang-tr="Mobil Programlama dersi projesi. Doktor-hasta iletişimi ve gerçek zamanlı mesajlaşma platformu.">Mobile Programming course project. Platform for doctor-patient communication and messaging with real-time features.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Flutter</span>
+                <span class="badge bg-secondary">WebSocket</span>
+                <span class="badge bg-secondary">Firebase</span>
+                <span class="badge bg-secondary">Node.js</span>
+              </div>
+              <a href="https://github.com/Pilestin/Hastane-Sistemi" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- News Website -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="News Website Challenge" data-lang-tr="Haber Sitesi">News Website Challenge</h5>
+              <p class="card-text small" data-lang-en="Challenge project for internship application. News website fetching content from external API." data-lang-tr="Staj başvurusu için challenge projesi. Dış API'den haber çeken web sitesi.">Challenge project for internship application. News website fetching content from external API.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Meteor.js</span>
+                <span class="badge bg-secondary">Bootstrap</span>
+                <span class="badge bg-secondary">Fetch API</span>
+              </div>
+              <a href="https://github.com/Pilestin/Newspaper_Bordo" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Music Platform -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6" data-lang-en="Social Music Platform (Harmoni)" data-lang-tr="Sosyal Müzik Platformu (Harmoni)">Social Music Platform (Harmoni)</h5>
+              <p class="card-text small" data-lang-en="Internship project. Social music platform with user authentication, music upload, role system, favorites, friend system, and live listening activity." data-lang-tr="Staj projesi. Kullanıcı girişi, müzik ekleme, rol sistemi, favoriler, arkadaş ekleme ve canlı dinleme özellikleri ile sosyal müzik platformu.">Internship project. Social music platform with user authentication, music upload, role system, favorites, friend system, and live listening activity.</p>
+              <div class="d-flex gap-2 flex-wrap mt-2">
+                <span class="badge bg-secondary">Meteor.js</span>
+                <span class="badge bg-secondary">MongoDB</span>
+                <span class="badge bg-secondary">Web Audio API</span>
+                <span class="badge bg-secondary">Bootstrap</span>
+              </div>
+              <a href="https://github.com/Pilestin/Harmoni" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- GitHub Projects -->
+        <div class="col-md-6 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title h6">GitHub Projects</h5>
+              <p class="card-text small" data-lang-en="Open-source contributions and personal projects available on GitHub" data-lang-tr="GitHub'da mevcut açık kaynak katkıları ve kişisel projeler">Open-source contributions and personal projects available on GitHub</p>
+              <a href="https://github.com/Pilestin" target="_blank" class="btn btn-sm btn-outline-primary mt-2" data-lang-en="View on GitHub" data-lang-tr="GitHub'da Görüntüle">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-muted small mt-5">
+      <p data-lang-en="For more details about any project, feel free to contact me via email or LinkedIn." data-lang-tr="Herhangi bir proje hakkında daha fazla bilgi için e-posta veya LinkedIn üzerinden benimle iletişime geçmekten çekinmeyin.">For more details about any project, feel free to contact me via email or LinkedIn.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Language Toggle Script -->
+  <script>
+    let currentLang = 'en';
+    
+    function switchLanguage(lang) {
+      currentLang = lang;
+      
+      // Update button states
+      document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+      document.getElementById('lang-tr').classList.toggle('active', lang === 'tr');
+      
+      // Update all elements with data-lang attributes
+      document.querySelectorAll('[data-lang-en]').forEach(element => {
+        const text = element.getAttribute('data-lang-' + lang);
+        if (text) {
+          element.innerHTML = text;
+        }
+      });
+      
+      // Save preference
+      localStorage.setItem('preferredLanguage', lang);
+    }
+    
+    // Load saved language preference on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+      if (savedLang === 'tr') {
+        switchLanguage('tr');
+      }
+    });
+  </script>
+</body>
+</html>
